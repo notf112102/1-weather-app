@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="imgs/logo.jpg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start search cart-->
+    <div class="search-cart">
+        <div class="search">
+            <input type="text" id="city_name_inp" placeholder="City Name" autofocus>
+            <i class="fa-solid fa-magnifying-glass" id="start"></i>
+        </div>
+        <div class="degre">
+            <img src="./imgs/clear.jpg" alt="" id="img">
+            <h1 id="temp">22°c</h1>
+            <h2 id="name_city">New York</h2>
+        </div>
+        <div class="footer">
+            <div>
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <p id="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <p id="wind_speed">15 Km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end search cart-->
+    <script src="js/index.js"></script>
+</body>
+</html>

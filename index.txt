@@ -1,0 +1,14 @@
+get the api: 
+1- search on open weather app in google 
+2- go to this website openweathermap 
+3- create an account in it
+4- go to api key and copy your api key 
+5- go to the api in the menu and select current weather data 
+6- go to the built-in appi request by city name and copy the api the first one 
+7- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+ - replace the city name by any name you want(germany) 
+ - replcae the api key by your key(6bce9fdbb06cb2db1ae7c5e73688e70f) 
+ - https://api.openweathermap.org/data/2.5/weather?q=germany&appid=6bce9fdbb06cb2db1ae7c5e73688e70f
+ - the full api with control the units: 
+    https://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=6bce9fdbb06cb2db1ae7c5e73688e70f&units=metric
+    
