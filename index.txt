@@ -11,4 +11,8 @@ get the api:
  - https://api.openweathermap.org/data/2.5/weather?q=germany&appid=6bce9fdbb06cb2db1ae7c5e73688e70f
  - the full api with control the units: 
     https://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=6bce9fdbb06cb2db1ae7c5e73688e70f&units=metric
+
+
+sea the page online: 
+https://notf112102.github.io/1-weather-app/
     
